@@ -1,0 +1,36 @@
+<div
+  *ngIf="dataLoaded == false"
+  class="spinner-border text-primary"
+  role="status"
+>
+  <span class="visually-hidden">Loading...</span>
+</div>
+
+<div class="row" *ngFor="let car of cars">
+    <img src="{{imageUrl}}{{car.imagePath}}" class="card-img-top" alt="thumbnail" width="100" height="330">
+    <table class="table table-bordered table-responsive table-hover table-dark" style="margin-top: 2%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Brand Name</th>
+                <th>Color Name</th>
+                <th>Description</th>
+                <th>DailyPrice</th>
+                <th>Model Year</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{car.carName}}</td>
+                <td>{{car.brandName}}</td>
+                <td>{{car.colorName}}</td>
+                <td>{{car.description}}</td>
+                <td>{{car.dailyPrice}}</td>
+                <td>{{car.modelYear | date: 'dd/MM/yyyy'}}</td>
+               
+            </tr>
+        </tbody>
+    </table>
+</div>
+         
