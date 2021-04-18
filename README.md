@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+ÖDEV 17:
+
+Bootstrap entegrasyonu yapıldı.
+Markalar (Brands) listelendi
+Renkler (Colors) listelendi
+Müşteriler (Customers)listelendi
+Arabalar (Cars) listelendi. 
+Kiralamalar (Rentals) listelendi 
+
+ÖDEV 18:
+
+Brand listesinde herhangi bir marka seçildiğinde, o markaya ait arabalar listelendi.
+Color listesinde herhangi bir renk seçildiğinde, o renge ait arabalar listelendi.
+Car listesinde bir arabaya tıklandığında o arabaya ait detay sayfası oluşturuldu.
+
